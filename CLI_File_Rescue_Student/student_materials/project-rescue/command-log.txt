@@ -1,34 +1,226 @@
 CLI FILE RESCUE COMMAND LOG
 
-Student:
-Date:
+Student: Shree Khasnis 5th Period
+Date: 8/7/2026
 
 Paste or type the important commands you used below. Add a short explanation beside commands marked by your teacher during the mastery conference.
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
+1. cd ./project-rescue
+2. cat .\reports\unique-testers.txt | sort -u .\reports\unique-testers.txt >> .\reports\unique-testers.txt
+3. mkdir assets, docs, logs, reports, src
+4. mv .\command-reference.txt ./docs
+5. rm .\app-backup-obsolete.py
+6. get-ChildItem -Force -Recurse
+7. dir *.py -recurse > .\reports\python-files.txt
+8. mv old-app.py app.py
+9. cp .\README-original.md ./docs/README.md
+10. findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
+11. mv helpers.py ./src
+12. Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/error-count.txt
 13.
 14.
 15.
 
 One command using a relative path:
 
+cd ./project-rescue
+
 One command using .. in a path:
+
+cd ..
 
 One find command:
 
+find -name "*.txt"
+
 One grep command:
+
+grep -e "ERROR"
 
 One command using output redirection:
 
+findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
+
 One command using a pipe:
+
+cat .\reports\unique-testers.txt | sort -u .\reports\unique-testers.txt >> .\reports\unique-testers.txt
+
+------------------------------------------------------------------------------
+
+   cd ./project-rescue
+   cd project-rescue
+   clear
+ls
+cd ./CLI_File_Rescue_Student
+  clear
+  cd ./project-rescue
+  ls
+  ls -h
+  ls -ah
+  clear
+ ls -ah
+ls -a
+ls -a
+ ls -h
+ ls -hidden
+ls -a hidden
+  clear
+cd ./student-materials
+cd ./student_materials
+  ls
+ cd ./project-rescue
+  clear
+ ls -lha
+ ls -a
+ clear
+ history
+ ls -h
+  ls -a
+  ls
+ ls -Force
+  ls -a
+ls --help
+-get-Child-Item -Force
+get-ChildItem -Force
+  cat .mission-clue.txt
+cat ".mission-clue.txt"
+type ".mission-clue.txt"
+get-Content ".mission-clue.txt"
+find -type f " "
+find -type file " "
+find -name "*.txt"
+ls
+cat "project notes.txt"
+mkdir assets, docs, logs, reports, src
+  ls
+mv ./src old-app.py app.py
+  mv --help
+ mv -h
+  MAN mv
+mv -path ./src old-app.py app.py
+mv -Path ./src old-app.py app.py
+mv old-app.py app.py
+ mv app.py ./src
+clear
+   mv helpers.py ./src
+   mv game-banner.svg ./assets
+   mv development.log ./logs
+   mv "project notes.txt" ./docs/project-notes.txt
+   cp .\README-original.md ./docs/README.md
+   mv .\command-reference.txt ./docs
+   clear
+   ls
+   get-ChildItem -Forcr
+   get-ChildItem -Force
+   cat .\.mission-clue.txt
+   get-ChildItem -Force -Recurse
+   cd ./mixed-files
+   clear
+   ls
+   cat .\app-backup-obsolete.py
+   cat .\app-backup-working.py
+   rm .\app-backup-obsolete.py
+   clear
+   cd ..
+   find -name "*.py"
+   dir *py
+   dir *py /s
+   dir *.py
+   dir *.py
+   dir pwd
+   ls
+   ls -recurse
+   dir /s *.py
+   dir /s *.py -recurse
+   dir *.py -recurse
+   dir *.py -recurse > .\reports\python-files.txt
+   cat .\reports\python-files.txt
+  Id CommandLine
+  -- -----------
+    try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps" } catch {}
+    history
+    hi
+    history
+    clear
+    ls
+    cd .\CLI_File_Rescue_Student\
+    cd .\student_materials\project-rescue\
+    clear
+   cat .\reports\python-files.txt
+   clear
+   grep -e "ERROR"
+   findstr "ERROR" .\logs\development.log
+   findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
+   cat .\reports\errors-only.txt
+   clear
+   wc -l .\reports\errors-only.txt
+   Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/errors-only.txt
+   cat .\reports\errors-only.txt
+   cat .\reports\unique-testers.txt | sort -u .\reports\unique-testers.txt >> .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt
+   clear
+    history
+    hi
+    history
+    clear
+    ls
+    cd .\CLI_File_Rescue_Student\
+    cd .\student_materials\project-rescue\
+    clear
+   cat .\reports\python-files.txt
+   clear
+   grep -e "ERROR"
+   findstr "ERROR" .\logs\development.log
+   findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
+   cat .\reports\errors-only.txt
+   clear
+   wc -l .\reports\errors-only.txt
+   Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/errors-only.txt
+   cat .\reports\errors-only.txt
+   findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
+   cat .\reports\errors-only.txt
+   Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/error-count.txt
+   cat .\reports\error-count.txt
+   cat .\data\testers.txt
+   cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
+   clear
+   cat .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt | sort /unique .\data\testers.txt > .\reports\unique-testers.txt
+   cd .\reports\
+   cat .\reports\unique-testers.txt | sort /unique testers.txt > unique-testers.txt
+   sort /unique testers.txt \ unique-testers.txt
+   sort /unique testers.txt | unique-testers.txt
+   cat .\unique-testers.txt
+   sort /unique testers.txt | ./reports/unique-testers.txt
+   cat .\reports\unique-testers.txt | sort /unique testers.txt -o  unique-testers.txt
+   cat .\reports\unique-testers.txt | sort /unique testers.txt /o unique-testers.txt
+   cat .\reports\unique-testers.txt | sort /unique ./reports/testers.txt /o unique-testers.txt
+   cat .\reports\unique-testers.txt | sort /unique .\testers.txt /o .\unique-testers.txt
+   clear
+   cd ..
+   cat .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt | sort -u .\reports\unique-testers.txt >> .\reports\unique-testers.txt
+   cat .\reports\unique-testers.txt
+   clear
+   history
+   clear
+   findstr /s "TODO" *.* > .\reports\todos.txt
+   cat .\reports\unique-testers.txt
+   cat .\reports\todos.txt
+   clear
+   cd .\src\
+   py app.py
+   python app.py
+   py app.py
+   cd ..
+   ls -a
+   ls
+   ls /s
+   get-ChildItem /s
+   get-ChildItem /r
+   get-ChildItem -Recurse
+
+test test test
