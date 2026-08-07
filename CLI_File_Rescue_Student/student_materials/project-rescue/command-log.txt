@@ -18,8 +18,8 @@ Paste or type the important commands you used below. Add a short explanation bes
 11. mv helpers.py ./src
 12. Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/error-count.txt
 13. cat .\reports\unique-testers.txt
-14.
-15.
+14. clear
+15. py app.py
 
 One command using a relative path:
 
