@@ -69,17 +69,7 @@ cd ./student-materials
 cd ./student_materials
   ls
  cd ./project-rescue
-  clear
- ls -lha
- ls -a
- clear
- history
- ls -h
-  ls -a
-  ls
  ls -Force
-  ls -a
-ls --help
 -get-Child-Item -Force
 get-ChildItem -Force
   cat .mission-clue.txt
@@ -135,13 +125,6 @@ clear
    dir *.py -recurse
    dir *.py -recurse > .\reports\python-files.txt
    cat .\reports\python-files.txt
-  Id CommandLine
-  -- -----------
-    try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps" } catch {}
-    history
-    hi
-    history
-    clear
     ls
     cd .\CLI_File_Rescue_Student\
     cd .\student_materials\project-rescue\
@@ -166,14 +149,11 @@ clear
     ls
     cd .\CLI_File_Rescue_Student\
     cd .\student_materials\project-rescue\
-    clear
    cat .\reports\python-files.txt
-   clear
    grep -e "ERROR"
    findstr "ERROR" .\logs\development.log
    findstr "ERROR" .\logs\development.log > ./reports/errors-only.txt
    cat .\reports\errors-only.txt
-   clear
    wc -l .\reports\errors-only.txt
    Get-Content .\reports\errors-only.txt | measure-Object -Line > reports/errors-only.txt
    cat .\reports\errors-only.txt
@@ -183,42 +163,22 @@ clear
    cat .\reports\error-count.txt
    cat .\data\testers.txt
    cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
-   clear
-   cat .\reports\unique-testers.txt
-   cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
-   cat .\reports\unique-testers.txt | sort -u .\data\testers.txt > .\reports\unique-testers.txt
-   cat .\reports\unique-testers.txt
-   cat .\reports\unique-testers.txt | sort /unique .\data\testers.txt > .\reports\unique-testers.txt
-   cd .\reports\
-   cat .\reports\unique-testers.txt | sort /unique testers.txt > unique-testers.txt
-   sort /unique testers.txt \ unique-testers.txt
-   sort /unique testers.txt | unique-testers.txt
-   cat .\unique-testers.txt
-   sort /unique testers.txt | ./reports/unique-testers.txt
    cat .\reports\unique-testers.txt | sort /unique testers.txt -o  unique-testers.txt
    cat .\reports\unique-testers.txt | sort /unique testers.txt /o unique-testers.txt
    cat .\reports\unique-testers.txt | sort /unique ./reports/testers.txt /o unique-testers.txt
    cat .\reports\unique-testers.txt | sort /unique .\testers.txt /o .\unique-testers.txt
-   clear
    cd ..
    cat .\reports\unique-testers.txt
    cat .\reports\unique-testers.txt | sort -u .\reports\unique-testers.txt >> .\reports\unique-testers.txt
    cat .\reports\unique-testers.txt
-   clear
-   history
-   clear
    findstr /s "TODO" *.* > .\reports\todos.txt
    cat .\reports\unique-testers.txt
    cat .\reports\todos.txt
    clear
    cd .\src\
    py app.py
-   python app.py
    py app.py
    cd ..
-   ls -a
-   ls
-   ls /s
    get-ChildItem /s
    get-ChildItem /r
    get-ChildItem -Recurse
